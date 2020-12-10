@@ -1,0 +1,48 @@
+.button__primary{
+    cursor: pointer;
+    color: var(--lightBlue);
+    font-size: 13px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+    padding: 7px 16px;
+    width: 200px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: var(--font-Roboto);
+    background: none;
+    transition: 0.3;
+    margin-left: 35px;
+    outline: none;
+
+    &:hover{
+        background: var(--lightBlue);
+        color: white;
+        transition: 0.3;
+    }
+}
+
+.button__primary-littel{
+    cursor: pointer;
+    color: var(--lightBlue);
+    font-size: 13px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+    padding: 7px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: var(--font-Roboto);
+    background: none;
+    transition: 0.3;
+    margin-left: 35px;
+    outline: none;
+
+    &:hover{
+        background: var(--lightBlue);
+        color: white;
+        transition: 0.3;
+    }
+}

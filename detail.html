@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product-Detail</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">    
+</head>
+<body>
+    <header>
+        <div class="banner__main">
+            <a href="#">
+                <div class="top-bar-wrap">
+                </div>
+            </a>
+        </div>  
+        
+        <div class="group-navigation">
+            <div class="container">
+                <div class="top-header">
+
+                    <div class="top-left">
+                        <div class="top-left__logo">
+                            <img class="logo__tikinow" src="img/54c02d2475983f93a024c0cd13f238e4.png" alt="logo tiki now">
+                        </div>
+        
+                        <form action="" class="top-left__form">
+                            <div class="group-form">
+                                <input type="text" class="group-form__search" placeholder="Tìm sản phẩm, danh mục hay thương hiệu mong muốn ...">
+                                <button class="group-form__button"><i class="fa fa-search" aria-hidden="true"></i>Tìm kiếm</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="top-right">
+                        <div class="userstyle__root">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <a href="#" class="userstyle__root--a">Theo dõi đơn hàng</a>
+                        </div>
+
+                        <div class="userstyle__root">
+                            <i class="fa fa-bell" aria-hidden="true"></i>
+                            <a href="#" class="userstyle__root--a">Thông báo của tôi</a>
+                        </div>
+
+                        <div class="userstyle__root user__active">
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                            <div class="box">
+                                <a class="box__user" href="#">Chào ngô hồng chân</a>
+                                <p>Tài khoản</p>
+                            </div>
+
+                        <div class="userstyle__userdropdown">
+                            <div class="arrow-up"></div>
+                            <ul class="toggle__box">
+                                <li><a href="#">Đơn hàng của tôi</a></li>
+                                <li><a href="#">Thông báo của tôi</a></li>
+                                <li><a href="#">Tài khoản của tôi</a></li>
+                                <li><a href="#">Nhận xét sản phẩm của tôi</a></li>
+                                <li><img src="img/icontikinow.png" alt="icon tikinow"><a href="#">TikiNOW <p>Đăng kí sử dụng ngay</p></a></li>
+                                <li><img src="img/coupon_code.svg" alt="icon coupon code"><a href="#">Mã giảm giá <p>bạn đang có <strong>0</strong> mã giảm giá</p> </a></li>
+                                <li><img src="img/tikixu.svg" alt="icon tikixu"><a href="#">Thông tin Tiki Xu <p>bạn đang có <strong>xu</strong> tiki xu</p> </a></li>
+                                <li><img src="img/bookcare.svg" alt="icon bookcare"><a href="#">Thông tin BookCare <p>Bạn đang có <strong>0</strong> bookcare</p> </a></li>
+                                <li><a href="#">Đổi trả dễ dàng</a></li>
+                                <li><a href="#">Thoát tài khoản</a></li>
+                            </ul>
+                        </div>
+                        </div>
+
+                        <div class="top-right__cart">
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            <h4>Giỏ Hàng</h4>
+                            <span class="number__cart">1</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+       <div class="group-menu">
+            <div class="container">
+                <div class="menu-wrapper">
+                    
+                    <div class="menu-wrapper__box">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                        <h4>DANH MỤC SẢN PHẨM</h4>
+                    </div>
+
+                    <div class="menu-wrapper__box">
+                        <img src="img/location.png" alt="icon location">
+                        <h5>Bạn muốn giao hàng tới đâu?</h5>
+                    </div>
+
+                    <div class="menu-wrapper__box menu_wrapper__rencently">
+                        <i class="fa fa-chevron-down i-down" aria-hidden="true"></i>
+                        <h5>sản phẩm bạn đã xem</h4>
+                        
+                    </div>
+
+                    <div class="recently__viewed"></div>
+                    <div class="content__view">
+                        <a href="#"><img class="recently__icon" src="img/9454467ac316ea683f93ff25405eee34.jpg" alt="product image"></a>
+                        <a href="#"><img class="recently__icon" src="img/loa-harman-kardon-soundsticks-iii-1-1_1.jpg" alt="product image"></a>
+                        <a href="#"><img class="recently__icon" src="img/71ysgc1jxpl._sl1500_do.jpg" alt="product image"></a>
+                        <a href="#"><img class="recently__icon" src="img/lhc4112b.jpg" alt="product image"></a>
+                        <a href="#"><img class="recently__icon" src="img/a4tech_op_720_2.jpg" alt="product image"></a>
+                        <a href="#"><img class="recently__icon" src="img/9b106515e7d18f31b36fc0dc835e4126.jpg" alt="product image"></a>
+                        <a href="#"><img class="recently__icon" src="img/df359528a5d92f1d9f014f0a1c1db67a.jpg" alt="product image"></a>
+                        <a href="#"><img class="recently__icon" src="img/75cc15cd0f5d99e9890c7a99aaaf43c1.png" alt="product image"></a>
+                        <a href="#"><img class="recently__icon" src="img/2b9bf5b1380427341f5908fe2520a6f7.jpg" alt="product image"></a>
+                        <button class="button__primary-littel">Xem thêm</button>
+                    </div>
+
+                </div>
+
+            </div>
+       </div>
+
+    </header>
+
+
+    <div class="main__detail">
+
+        <div class="container">
+            <div class="group__product">
+                <div class="product__img">
+                    <div class="group__img">
+                        <div class="thumnail">
+                            <button><img src="./img/product-img.jpg" alt="product"></button>
+                        </div>
+    
+                        <div class="images">
+                            <div class="images__active">
+                                <img src="./img/thumnail-img.jpg" alt="thumnail img">
+                            </div>
+    
+                            <p><i class="fa fa-search-plus" aria-hidden="true"></i>Rê chuột lên màn hình để phóng to</p>
+                        </div>
+                    </div>
+
+                    <div class="review__img">
+                        <p class="review__img--title">Hình ảnh thực tế từ khách hàng</p>
+                        <div class="review__img--list">
+                            <a href="#">
+                                <img src="./img/thumnail-list-1.jpg" alt="">
+                            </a>
+        
+                            <a href="#">
+                                <img src="./img/thumnail-list-2.jpg" alt="">
+                            </a>
+        
+                            <a href="#">
+                                <img src="./img/thumnail-list-3.jpg" alt="">
+                            </a>
+        
+                            <a href="#">
+                                <img src="./img/thumnail-list-4.jpg" alt="">
+                            </a>
+        
+                            <a href="#">
+                                <img src="./img/thumnail-list-15jpg.jpg" alt="">
+                            </a>
+        
+                            <a href="#">
+                                <img src="./img/thumnail-list-6.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="nativebanner__wrapper">
+                        <a href="#">
+                            <img src="./img/bannerdetail.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product__content">
+                    <div class="product__header">
+                        <h1 class="product__header--title"><a href="#"><img src="./img/tikinow.png" alt="tiki logo"></a>Điện Thoại iPhone 11 Pro Max 256GB - Hàng Chính Hãng</h1>
+                        <p class="product__header--besteller"><img src="./img/prize.png" alt="logo"> <b>Đứng thứ 79</b> trong <span class="textblue">Top 100 điện thoại Smartphone bán chạy tháng này</span></p>
+                        <div class="group__brand">
+                            <span class="group__brand--title">Thương hiệu: <span class="textblue">Apple</span></span> 
+                            <span class="group__brand--sku">SKU:  1422644401194</span>
+                        </div>
+                    </div>
+
+                    <div class="product__body">
+                         <div class="widgetinfor__left">
+                             <div class="widgetinfor__style">
+                                <div class="widget-infor__icon">
+                                    <img src="./img/carticon.png" alt="icon">
+                                </div>
+                                <div class="widget-infor__content">
+                                    <div class="widget-infor__content--title">Miễn phí giao hàng (tối đa 50k)</div>
+                                    <div class="widget-infor__content--description">cho đơn hàng 499k <a href="#">xem chi tiết</a></div>
+                                </div>
+                             </div>
+
+                            <div class="widget-infor__price">
+                                <p class="price">32.490.000</p>
+                                <div class="group">
+                                    <p>Trả góp 0% chỉ <span class="textblue">5.415.000 ₫/tháng</span> trong 6 tháng qua thẻ tín dụng</p>
+                                    <p class="group__text">Tiết kiệm: 14% (5.500.000 ₫)</p>
+                                    <p class="group__text">Giá thị trường: 37.990.000 ₫</p>
+                                </div>
+                            </div>
+
+                            <div class="group__lists">
+                                <ul class="list">
+                                    <li>Chính hãng, Nguyên seal, Mới 100%, Chưa active</li>
+                                    <li>Mã part: VN/A</li>
+                                    <li>Màn hình: OLED (Super Retina XDR), 6.5 inch, 2688 x 1242 pixels</li>
+                                    <li>Camera Trước/Sau: 12MP / 12MP + 12MP + 12MP</li>
+                                    <li>CPU: Apple A13 Bionic (7 nm+)</li>
+                                    <li>Bộ Nhớ: 256 GB</li>
+                                    <li>RAM: 4GB</li>
+                                    <li>SIM: 1 Nano SIM + 1 esim</li>
+                                    <li>Tính năng: Chống nước, chống bụi, Face ID, Sạc pin nhanh</li>
+                                </ul>
+                            </div>
+
+                            <div class="group__addtocart">
+                                <p class="option__name">Chọn màu: <span>Vàng</span></p>
+                                <div class="group-button">
+                                    <button class="button-primary active">Vàng</button>
+                                    <button class="button-primary">Xanh rêu</button>
+                                    <button class="button-primary">Xám</button>
+                                </div>
+                                <div class="group-cart">
+
+                                    <div class="quantity-input__wrapper">
+                                        <div class="label">Số lượng</div>
+                                        <div class="group-input">
+                                            <button>-</button>
+                                            <input type="text" value="1" class="input">
+                                            <button>+</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="group-btn__addtocart">
+                                        <button class="add-button btn-add-to-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i>CHỌN MUA</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="widgetinfor__right">
+                            <div class="group">
+                                <div class="sale__infor">
+                                    <img src="./img/home.png" alt="icon home">
+                                    <div>
+                                        <a href="#">Tiki Tranding</a>
+                                        <p>Cam kết chính hiệu 100%</p>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn-view-shop">Xem shop</a>
+                                <div class="seller-specification">
+                                    <img src="./img/money.png" alt="icon money">
+                                    <div>
+                                        <strong>Tiki hoàn tiền 111%</strong>
+                                        <p>Nếu phát hiện hàng giả</p>
+                                    </div>
+                                </div>
+                                <div class="seller-specification">
+                                    <img src="./img/commerce-and-shopping.png" alt="icon">
+                                    <div>
+                                        <p>
+                                            <b>Thông tin bảo hành</b>
+                                        </p>
+                                    </div>
+                                </div>  
+                                <div class="seller-specification">
+                                    <div class="list">
+                                        <div class="item">
+                                            <span>Thời gian bảo hành</span>
+                                            <strong>12 tháng</strong>
+                                        </div>
+                                        <div class="item">
+                                            <span>Hình thức bảo hành</span>
+                                            <strong>Điện tử</strong>
+                                        </div>
+                                        <div class="item">
+                                            <span>Nơi bảo hành</span>
+                                            <strong>Bảo hành chính hảng</strong>
+                                        </div>
+                                        <div class="item">
+                                            <span>Hướng dẫn bảo hành</span>
+                                            <strong><a href="#">Xem chi tiết</a></strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="body">
+                        <div class="promotions">
+                            <h2 class="group-title">DỊCH VỤ & KHUYẾN MÃI LIÊN QUAN</h2>
+                        <ul class="list">
+                            <li>
+                                <p>Đăng kí gói <span class="textred">TikiNOW</span> để nhận giao hàng miễn phí và nhiều ưu đãi dành riêng cho thành viên - <a href="#">Xem chi tiết</a></p>
+                            </li>
+
+                            <li>
+                                <p>Nhận ngay voucher Tiki 1 triệu đồng và Săn ngay 10 Samsung Note20 Ultra với thẻ Sacombank Tiki Platinum. <a href="#">Xem chi tiết</a></p>
+                            </li>
+                            <li>
+                                <p>Nhập mã APPLE1M giảm thêm 1 triệu đồng cho các sản phẩm iPhone, iPad từ 20 triệu.Lưu ý: Chỉ áp dụng cho các sản phẩm Tiki Trading <a href="#" class="textbluebold">LƯU MÃ</a></p>
+                            </li>
+                            <li>
+                                <p>Nhập mã IPHONE11 giảm thêm 1 triệu cho các sản phẩm iPhone 11, iPhone 11 Pro, iPhone 11 Pro Max Hàng Chính Hãng.Lưu ý: Chỉ áp dụng cho các sản phẩm do Tiki Trading phân phối. <a href="#" class="textbluebold">LƯU MÃ</a></p>
+                            </li>
+                            <li>
+                                <p>Miễn phí giao hàng tiêu chuẩn cho đơn hàng từ 249K tối đa 30K. Miễn phí giao hàng tiêu chuẩn cho đơn hàng từ 500K tối đa 50K. Mỗi khách được sử dụng 2 lần/ 1 ưu đãi phí ship</p>
+                            </li>
+                            <li>
+                                <p>Nhập mã SIEUTRAGOP giảm 3%, tối đa 1,000,000 cho đơn hàng từ 3,000,000. Chỉ áp dụng cho đơn hàng trả góp thuộc ngành hàng ĐIện Thoại - Máy Tính Bảng - Thiết Bị Số - Camera -IT - Laptop</p>
+                            </li>
+                            <li>
+                                <p>Hoàn tiền 15% cho mọi chi tiêu với Thẻ Tín Dụng Liên Kết Sacombank Tiki Platinum - <a href="#">Mở thẻ ngay</a></p>
+                            </li>
+                            <li>
+                                <p>Nhận Quà Tặng 17.3tr & Gói TikiNOW 1 Năm với thẻ Citi. <a href="#">Mở thẻ ngay</a></p>
+                            </li>
+                            <li>
+                                <p>Nhập mã TIKIMOMO khi tải và đăng kí MoMo để được: Coupon 50K cho đơn từ 300K, Thêm 2 coupon 30K cho đơn hàng tiếp theo từ 300K. <a href="#">Xem chi tiết</a></p>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="container">
+
+        <div class="Container__productslide">
+            <h1 class="block__title">SẢN PHẨM THƯỜNG ĐƯỢC XEM CÙNG</h1>
+            <div class="tikideal__body">
+               <a href="#" class="col-5">
+                   <div class="col-5__picture">
+                        <img src="img/img__slide1.jpg" alt="picture product">
+                   </div>
+                   <p class="title">Kính bơi chống tia UV , Chống sương mù , bảo vệ mắt YESURE Cleacco, Dây đeo được làm 100% silicone mềm mại, thoải mái, dành cho vận động viên chuyên nghiệp hoặc người có sở thích đi bơi - Hàng Chính Hãng</p>
+                   <p class="price">30.000 đ
+                        <span class="price__orginial">120 đ</span>
+                   </p>
+                </a>
+
+                <a href="#" class="col-5">
+                    <div class="col-5__picture">
+                         <img src="img/img__slide2.jpg" alt="picture product">
+                    </div>
+                    <p class="title">Kính bơi chống tia UV , Chống sương mù , bảo vệ mắt YESURE Cleacco, Dây đeo được làm 100% silicone mềm mại, thoải mái, dành cho vận động viên chuyên nghiệp hoặc người có sở thích đi bơi - Hàng Chính Hãng</p>
+                    <p class="price">30.000 đ
+                         <span class="price__orginial">120 đ</span>
+                     </p>
+                 </a>
+
+                 <a href="#" class="col-5">
+                    <div class="col-5__picture">
+                         <img src="img/img__slide3.jpg" alt="picture product">
+                    </div>
+                    <p class="title">Kính bơi chống tia UV , Chống sương mù , bảo vệ mắt YESURE Cleacco, Dây đeo được làm 100% silicone mềm mại, thoải mái, dành cho vận động viên chuyên nghiệp hoặc người có sở thích đi bơi - Hàng Chính Hãng</p>
+                    <p class="price">30.000 đ
+                         <span class="price__orginial">120 đ</span>
+                     </p>
+                 </a>
+
+                 <a href="#" class="col-5">
+                    <div class="col-5__picture">
+                         <img src="img/img__slide4.jpg" alt="picture product">
+                    </div>
+                    <p class="title">Kính bơi chống tia UV , Chống sương mù , bảo vệ mắt YESURE Cleacco, Dây đeo được làm 100% silicone mềm mại, thoải mái, dành cho vận động viên chuyên nghiệp hoặc người có sở thích đi bơi - Hàng Chính Hãng</p>
+                    <p class="price">30.000 đ
+                         <span class="price__orginial">120 đ</span>
+                     </p>
+                 </a>
+
+                 <a href="#" class="col-5">
+                    <div class="col-5__picture">
+                         <img src="img/img__slide5.jpg" alt="picture product">
+                    </div>
+                    <p class="title">Kính bơi chống tia UV , Chống sương mù , bảo vệ mắt YESURE Cleacco, Dây đeo được làm 100% silicone mềm mại, thoải mái, dành cho vận động viên chuyên nghiệp hoặc người có sở thích đi bơi - Hàng Chính Hãng</p>
+                    <p class="price">30.000 đ
+                         <span class="price__orginial">120 đ</span>
+                     </p>
+
+                 </a>
+                
+            </div>
+        </div>
+
+
+        <div class="product__description">
+            <div class="group">
+                <div class="content has-table">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Thương hiệu</td>
+                                <td>Apple</td>
+                            </tr>
+                            <tr>
+                                <td>Xuất xứ thương hiệu</td>
+                                <td>Mỹ</td>
+                            </tr>
+                            <tr>
+                                <td>Xuất xứ</td>
+                                <td>Trung Quốc</td>
+                            </tr>
+                            <tr>
+                                <td>Mã part</td>
+                                <td>VN/A</td>
+                            </tr>
+                            <tr>
+                                <td>Phụ kiện đi kèm</td>
+                                <td>Cáp, Adapter sạc, tai nghe, cây lấy sim, hướng dẫn sử dụng</td>
+                            </tr>
+                            <tr>
+                                <td>Loại/ Công nghệ màn hình</td>
+                                <td>OLED capacitive touchscreen, 16M colors</td>
+                            </tr>
+                            <tr>
+                                <td>Kích thước màn hình</td>
+                                <td>6.5 inch</td>
+                            </tr>
+                            <tr>
+                                <td>Độ phân giải</td>
+                                <td>2688 x 1242 pixels</td>
+                            </tr>
+                            <tr>
+                                <td>Camera trước</td>
+                                <td>12MP</td>
+                            </tr>
+                            <tr>
+                                <td>Camera sau</td>
+                                <td>12 MP + 12 MP + 12 MP</td>
+                            </tr>
+                            <tr>
+                                <td>Tính năng camera</td>
+                                <td>Selfie ngược sáng HDR, Camera góc rộng, Nhận diện khuôn mặt, Zoom quang học, Chụp ảnh xóa phông, A.I Camera, HDR, Panorama, Chống rung quang học</td>
+                            </tr>
+
+                            <tr>
+                                <td>Đèn Flash</td>
+                                <td>Có</td>
+                            </tr>
+
+                            <tr>
+                                <td>Video call</td>
+                                <td>Hỗ trợ VideoCall thông qua ứng dụng</td>
+                            </tr>
+
+                            <tr>
+                                <td>Quay phim</td>
+                                <td>2160p@24/30/60fps, 1080p@30/60/120/240fps, HDR, stereo sound rec</td>
+                            </tr>
+
+                            <tr>
+                                <td>RAM</td>
+                                <td>4GB</td>
+                            </tr>
+
+                            <tr>
+                                <td>ROM</td>
+                                <td>64GB</td>
+                            </tr>
+
+                            <tr>
+                                <td>Trọng lượng</td>
+                                <td>226g</td>
+                            </tr>
+
+
+                            <tr>
+                                <td>Kích thước</td>
+                                <td>158 x 77.8 x 8.1 mm</td>
+                            </tr>
+
+
+                            <tr>
+                                <td>Chip set</td>
+                                <td>Apple A13 Bionic (7 nm+)</td>
+                            </tr>
+
+
+                            <tr>
+                                <td>Dung lượng pin</td>
+                                <td>3969 mAh, có sạc nhanh</td>
+                            </tr>
+
+                            <tr>
+                                <td>Loại pin</td>
+                                <td>Li-Ion</td>
+                            </tr>
+
+                            <tr>
+                                <td>Kết nối dữ liệu</td>
+                                <td>Bluetooth, Wifi</td>
+                            </tr>
+
+                            <tr>
+                                <td>Loại Sim</td>
+                                <td>Nano Sim + esim</td>
+                            </tr>
+
+                            <tr>
+                                <td>Số sim</td>
+                                <td>1</td>
+                            </tr>
+
+                            <tr>
+                                <td>Wifi</td>
+                                <td>Wi-Fi 802.11 a/b/g/n/ac/ax, dual-band, hotspot</td>
+                            </tr>
+
+                            <tr>
+                                <td>GPS</td>
+                                <td>A-GPS, GLONASS, GALILEO, QZSS</td>
+                            </tr>
+
+                            <tr>
+                                <td>Bluetooth</td>
+                                <td>V5.0</td>
+                            </tr>
+
+                            <tr>
+                                <td>NFC</td>
+                                <td>Có</td>
+                            </tr>
+
+                            <tr>
+                                <td>Cổng sạc</td>
+                                <td>Lightning</td>
+                            </tr>
+
+                            <tr>
+                                <td>Xem phim</td>
+                                <td>Có</td>
+                            </tr>
+
+                            <tr>
+                                <td>Nghe nhạc</td>
+                                <td>Có</td>
+                            </tr>
+
+                            <tr>
+                                <td>Ghi âm</td>
+                                <td>Có</td>
+                            </tr>
+
+                            <tr>
+                                <td>FM radio</td>
+                                <td>Không</td>
+                            </tr>
+
+                            <tr>
+                                <td>SKU</td>
+                                <td>6098931431776</td>
+                            </tr>
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__heading">
+                <img class="logo__newsletter" src="./img/newsletter.png" alt="newsletter img">
+                <h4>Đăng ký nhận bản tin Tiki 
+                    <p>Đừng bỏ lỡ hàng ngàn sản phẩm và chương trình siêu hấp dẫn</p>
+                </h4>
+
+                <form action="" class="form">
+                    <input type="text" class="form__search" placeholder="Địa chỉ email của bạn">
+                    <button class="form__button">Đăng Ký</button>
+                </form>
+
+            </div>
+        </div>
+
+        <div class="footer__information">
+            <div class="container">
+                <div class="footer__row">
+                    <div class="col-5">
+                        <h2>HỖ TRỢ KHÁCH HÀNG</h2>
+                       <div class="group__link">
+                            <p class="group__link--hotline">
+                                Hotline chăm sóc khách hàng: 1900-6035
+                                <span>(1000đ/phút , 8-21h kể cả T7, CN)</span>
+                            </p>
+                            <a href="#">Các câu hỏi thường gặp</a>
+                            <a href="#">Gửi câu hỏi thường gặp</a>
+                            <a href="#">Hướng dẫn đặt hàng</a>
+                            <a href="#">Phương thức vận chuyển</a>
+                            <a href="#">Chính sách đổi trả</a>
+                            <a href="#">hướng dẫn mua trả góp</a>
+                            <a href="#">Chính sách hàng nhập khẩu</a>
+                            <a href="#">Hỗ trợ khách hàng:hotro@tiki</a>
+                            <a href="#">Báo lỗi bảo mật:security@tiki.vn</a>
+                       </div>
+                    </div>
+    
+                    <div class="col-5">
+                        <h2>VỀ TIKI</h2>
+                       <div class="group__link">
+                            <a href="#">Giới thiệu về Tiki</a>
+                            <a href="#">Tuyển dụng</a>
+                            <a href="#">Chính sách bảo mật thanh toán</a>
+                            <a href="#">Chính sách bảo mật thông tin cá nhân</a>
+                            <a href="#">Chính sách giải quyết khiếu nại</a>
+                            <a href="#">Điều khoản sử dụng</a>
+                            <a href="#">Giới thiệu Tiki xu</a>
+                            <a href="#">Bán hàng doanh nghiệp</a>
+                       </div>
+                    </div>
+    
+                    <div class="col-5">
+                        <h2>HỢP TÁC LIÊN KẾT</h2>
+                       <div class="group__link">
+                            <a href="#">Quy chế hoạt động sàn GDTMDT</a>
+                            <a href="#">Bán hàng cùng Tiki</a>
+                       </div>
+                    </div>
+    
+                    <div class="col-5">
+                        <h2>PHƯƠNG THỨC THANH TOÁN</h2>
+                       <div class="group__link">
+                         <img src="./img/visa.svg" alt="visa icon">
+                         <img src="./img/mastercard.svg" alt="mastercard icon">
+                         <img src="./img/jcb.svg" alt="jcn icon">
+                         <img src="./img/cash.svg" alt="cash icon">
+                         <img src="./img/internet-banking.svg" alt="internet baning icon">
+                         <img src="./img/installment.svg" alt="installment icon">
+                       </div>
+                    </div>
+    
+                    <div class="col-5">
+                        <h2>KẾT NỐI VỚI CHÚNG TÔI</h2>
+                       <div class="group__link">
+                           <p class="group__social">
+                                <a href="#"><img src="./img/fb.svg" alt="facebook icon"></a>
+                                <a href="#"><img src="./img/youtube.svg" alt="youtube icon"></a>
+                           </p>
+                           
+                           <h2> 
+                                TẢI ỨNG DỤNG TRÊN ĐIỆN THOẠI
+                           </h2>
+    
+                           <p>
+                               <a href="#"><img class="store__img" src="./img/appstore.png" alt="appstore icon"></a>
+                               <a href="#"><img class="store__img" src="./img/playstore.png" alt="playstore icon"></a>
+                           </p>
+                       </div>
+                    </div>
+    
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__address">
+            <div class="container">
+                <div class="address">
+                    <p><b>Địa chỉ văn phòng: </b> 52 Út Tịch, phường 4, quận Tân Bình, thành phố Hồ Chí Minh</p>
+                    <p>Tiki nhận đặt hàng trực tuyến và giao hàng tận nơi, chưa hỗ trợ mua và nhận hàng trực tiếp tại văn phòng hoặc trung tâm xử lý đơn hàng</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__copyright">
+            <div class="container">
+                <div class="footer__copy">
+                    <div class="footer__copy--text">
+                        <h5>© 2016 - Bản quyền của Công Ty Cổ Phần Ti Ki - Tiki.vn</h5>
+                        <p>
+                            Giấy chứng nhận Đăng ký Kinh doanh số 0309532909 do Sở Kế hoạch và Đầu tư Thành phố Hồ Chí Minh cấp ngày 06/01/2010
+                            </p>
+                    </div>
+        
+                    <div class="footer__copy--icon">
+                        <a href="#"><img class="icon" src="./img/bo-cong-thuong-2.png" alt=""></a>
+                        <a href="#"><img src="./img/bo-cong-thuong.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+    <script src="js/thumnailslider.js"></script>
+    <script src="js/dropdown.js"></script>
+    <script src="js/slideShow.js"></script>
+</body>
+</html>

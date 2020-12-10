@@ -1,0 +1,162 @@
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .top-left{
+        display: flex;
+        flex: 1 1 0%;
+        align-items: center;
+        margin-right: 24px;
+
+        &__form{
+            margin-left: 10px;
+            flex: 1 1 0%;
+        }
+        
+    }
+
+    .group-form {
+        width: 100%;
+        display: flex;
+        position: relative;
+        box-shadow: rgba(98, 98, 98, 0.5) 0px 1px 2px 0px;
+
+        &__search{
+        font-size: 13px;
+        border-width: 0px;
+        border-style: initial;
+        border-color: initial;
+        border-image: initial;
+        padding: 0px 8px;
+        border-radius: 4px 0px 0px 4px;
+        flex: 1 1 0%;
+        outline: none;
+
+            &::placeholder{
+                color: var(--textGrey);
+            }
+        }
+
+        &__button{
+            cursor: pointer;
+            height: 40px;
+            color: rgb(74, 74, 74);
+            font-size: 14px;
+            font-weight: 400;
+            border-width: 0px;
+            border-style: initial;
+            border-color: initial;
+            border-image: initial;
+            padding: 0px 11px 0px 15px;
+            background: rgb(237, 238, 242);
+            border-radius: 0px 4px 4px 0px;
+            outline: none;
+        }
+    }
+
+    
+    .top-right{
+        display: flex;
+        flex: 1 1 0%;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+
+        &__cart{
+            cursor: pointer;
+            align-items: center;
+            display: inline-flex;
+            color: rgb(255, 255, 255);
+            line-height: 14px;
+            letter-spacing: 0.7px;
+            font-weight: 400;
+            font-size: 13px;
+            vertical-align: middle;
+            margin: 0px 0px 0px 30px;
+            border-width: 2px;
+            border-style: solid;
+            border-color: rgb(255, 255, 255);
+            border-image: initial;
+            padding: 8px 11px;
+            border-radius: 4px;
+            display: flex;
+
+            i {
+                font-size: 25px;
+                margin-right: 12px;
+                vertical-align: middle;
+            }
+
+            h4{
+                font-size: 13px;
+                color: white;
+                font-family: var(--font-Roboto);
+                vertical-align: middle;
+            }
+
+            .number__cart{
+                color: rgb(74, 74, 74);
+                height: 20px;
+                text-align: center;
+                line-height: 20px;
+                margin-left: 9px;
+                font-size: 12px;
+                font-weight: 700;
+                background: rgb(253, 216, 53);
+                border-radius: 2px;
+                padding: 0px 6px;
+                font-family: var(--font-Roboto);
+            }
+        }
+
+        .userstyle__root{
+            overflow: hidden;
+            display: flex;
+            width: 100px;
+            margin-left: 10px;
+        
+            &--a{
+                text-decoration: none;
+                color: white;
+                font-family: var(--font-Roboto);
+                font-size: 12px;
+                font-weight: 500;
+            }
+        
+            .box{
+                display: inline-block;
+                vertical-align: middle;
+                
+        
+                &__user{
+                    color: white;
+                    white-space: nowrap; 
+                    overflow: hidden;
+                    text-overflow: ellipsis; 
+                    text-decoration: none;
+                    font-family: var(--font-Roboto);
+                    font-size: 12px;
+                }
+        
+                p{
+                    color: white;
+                    font-family: var(--font-Roboto);
+                    font-size: 12px;
+                    cursor: pointer;
+                }
+               
+            }
+        
+            i{
+                font-size: 25px;
+                color: white;
+                margin-right: 12px;
+                vertical-align: middle;
+            }
+        }
+
+        
+    }
+
+}

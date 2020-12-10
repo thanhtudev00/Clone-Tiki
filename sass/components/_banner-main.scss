@@ -1,0 +1,17 @@
+.banner__main{
+    overflow: hidden;
+
+    a{
+        text-decoration: none;
+
+        .top-bar-wrap{
+            height: 50px;
+            background-size: auto 50px;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-image: url('../../img/ce52c1d91d4d13b59fe7588dddcb164f.jpg'), linear-gradient(to right, rgb(70, 15, 169) 40%, rgb(71, 15, 169) 50%, rgb(71, 14, 169) 60%);
+        }
+
+    }
+
+}

@@ -1,0 +1,45 @@
+.home-page{
+    box-sizing: border-box; 
+}
+
+.group-navigation{
+    background-color:  var(--blue);
+    padding: 20px 0px 16px;
+
+    .logo__tikinow{
+        width: 120px;
+    }
+}
+
+
+.group-menu{
+    padding: 10px 0px 16px;
+    background-color:  var(--blue);   
+}
+
+.main{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.navigation__wrapper{
+    display: flex;
+}
+
+.group-banner__container{
+    margin-right: auto;
+    padding-top: 1px;
+}
+
+.list__container{
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.footer{
+    padding-top: 50px;
+}
+
+.main__detail{
+    margin-top: 20px;
+}
